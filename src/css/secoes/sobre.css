@@ -16,13 +16,20 @@
 }
 
 .sobre-mim .informacoes-sobre-mim {    
-    max-width: 60%;
-    padding: 0 25px;   
-    align-self: center; 
+    max-width: 90%;
+    margin: auto;
+    padding: 0 25px;
+
 }
 
 .sobre-mim .informacoes-sobre-mim .botoes {
     margin-top: 50px;
+}
+
+.sobre-mim .informacoes-sobre-mim p:nth-child(1){
+    
+    letter-spacing: .1rem;
+    text-align: center;
 }
 
 .sobre-mim .informacoes-sobre-mim p {
@@ -30,6 +37,7 @@
     font-weight: 300;
     margin-bottom: 20px;
 }
+
 
 @media(max-width: 1280px) { 
     .sobre-mim .row{
