@@ -28,7 +28,7 @@
 .header nav li a {
     text-transform: capitalize;
     color: var(--cor-branca);
-    font-size: var(--fonte-normal);
+    font-size: 1.8rem;
     font-weight: 500;
     padding: 10px 20px;
     transition: 0.2s;
@@ -39,11 +39,10 @@
 
 .header nav ul li a:hover{
     background-color: var(--cor-primaria);;
-    color: var(--cor-branca);
 }
 
 .header nav ul li .botao{
-    font-size: var(--fonte-normal);
+    font-size: 1.8rem;
     padding: 10px 15px;
     border-radius: 20px;
     transition: all .3s ease;
@@ -52,7 +51,6 @@
 
 .header nav ul li .botao:hover{
     background-color: var(--cor-secundaria);
-    color: var(--cor-branca);
 }
 
 .header .menu{
