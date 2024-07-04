@@ -6,19 +6,36 @@
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-extra-grande);
     color: var(--cor-branca);
-    border: 2px solid var(--cor-branca);
+    /* border: 2px solid var(--cor-branca); */
     border-radius: 50%;
     width: 65px;
     height: 65px;
     line-height: 55px;
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     transition: 0.2s;
+    position: relative;
+}
+
+.header .logo::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    padding: 0 .4rem;
+    content: "\3c";
+}
+
+.header .logo::after {
+    font-family: "Font Awesome 5 Free";  
+    padding: 0 .4rem;
+    font-weight: 900; 
+    content: "\3c";
+    position: absolute;
+    transform: rotate(180deg);
 }
 
 .header a:hover .logo {
     color: var(--cor-primaria);
-    border: 2px solid var(--cor-primaria);
+    /* border: 2px solid var(--cor-primaria); */
 }
 
 .header nav ul {
