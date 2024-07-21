@@ -22,6 +22,9 @@
     font-weight: 900; 
     padding: 0 .4rem;
     content: "\3c";
+    position: absolute;
+    left: -1rem;
+    top: -.1rem;
 }
 
 .header .logo::after {
@@ -30,6 +33,7 @@
     font-weight: 900; 
     content: "\3c";
     position: absolute;
+    top: .4rem;
     transform: rotate(180deg);
 }
 

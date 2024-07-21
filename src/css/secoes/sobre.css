@@ -27,7 +27,6 @@
 }
 
 .sobre-mim .informacoes-sobre-mim p:nth-child(1){
-    
     letter-spacing: .1rem;
     text-align: center;
 }
@@ -52,7 +51,7 @@
 
     .sobre-mim .informacoes-sobre-mim {  
         padding: 0 var(--mobile-padding);
-        text-align: center;
+        text-align: justify;
     }
 
     .sobre-mim .imagem-sobre-mim .inner-shadow {
